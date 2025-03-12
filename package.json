@@ -2,7 +2,7 @@
   "name": "rds-data-api",
   "version": "0.1.0",
   "bin": {
-    "rds-data-api": "bin/rds-data-api.js"
+    "rds-data-api": "bin/main.ts"
   },
   "scripts": {
     "build": "tsc",

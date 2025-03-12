@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib';
-import { RdsDataApiStack } from '../lib/rds-data-api-stack';
+import { RdsDataApiStack } from '../lib/stacks/rds-data-api-stack';
 
 const app = new cdk.App();
 new RdsDataApiStack(app, 'RdsDataApiStack', {
